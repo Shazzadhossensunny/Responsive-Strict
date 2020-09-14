@@ -1,0 +1,657 @@
+*{
+	padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+body{
+	font-family: 'Lato', sans-serif;
+	font-size: 14px;
+	line-height: 24px;
+}
+
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Lato', sans-serif;
+}
+
+a, a:hover{
+	text-decoration: none;
+}
+
+/****************************************************************************************
+                 header section css code start 
+****************************************************************************************/
+.header-section{
+    width: 100%;
+    padding: 20px 0px;
+    background: #f6f9f9;
+}
+
+
+/****************************************************************************************
+                 header section css code end 
+****************************************************************************************/
+
+/****************************************************************************************
+               banner section css code start........ 
+****************************************************************************************/
+.banner-section{
+    width: 100%;
+    background: url(../img/banner.png) center no-repeat;
+    background-size: cover;
+    padding: 80px 0px;
+    text-align: center; 
+    
+}
+
+.banner-section .banner-inner{
+    width: 100%;
+    padding:20px 0px 0px;
+}
+
+.banner-inner h1{
+    font-size: 100px;
+    font-weight: 700;
+    line-height: 110px;
+    text-transform: uppercase;
+    color: #ffffff;
+    padding: 60px 0px 30px;
+
+}
+.banner-inner .divider{
+    width: 55%;
+    border: 1px solid #15a4fa;
+    margin: 0px auto; 
+}
+
+.banner-inner p{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 35px;
+    color: #ffffff;
+    margin: 40px 0px;
+}
+
+.banner-inner .btn{
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 24px;
+    border: 1px solid #15a4fa;
+    padding: 18px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+    color: #ffffff;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+    background: transparent;
+}
+.banner-inner .btn:hover{
+    background: #15a4fa;
+}
+.banner-inner .arrow-image{
+    width: 100%;
+    margin: 80px 0px 0px;
+}
+
+/****************************************************************************************
+               banner section css code end........ 
+****************************************************************************************/
+
+/****************************************************************************************
+               simple section css code start........ 
+****************************************************************************************/
+
+.simple{
+    width: 100%;
+    padding: 60px 0px;
+    background: #f6f9f9;
+}
+
+.simple-inner{
+    width: 100%;
+    text-align: center;
+}
+
+.simple-inner h2{
+    font-size: 35px;
+    line-height: 45px;
+    font-weight: 400;
+    color: #2d3950;
+    margin-bottom: 15px;
+}
+
+.simple-inner p{
+    font-size: 15px;
+    line-height: 25px;
+    font-weight: 400;
+    color: #a0a0a0;
+}
+/****************************************************************************************
+               simple section css code end........ 
+****************************************************************************************/
+
+/****************************************************************************************
+               feature section css code start........ 
+****************************************************************************************/
+
+.feature{
+    width: 100%;
+    padding: 60px 0px; 
+    background: #ffffff;
+
+}
+
+.feature .feature-inner{
+    width: 100%;
+    text-align: center;
+}
+
+.feature-inner img{
+    margin-top: 15px;
+    margin-bottom: 12px; 
+}
+.feature-inner h4{
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 400;
+    color: #2d3950;
+} 
+
+.feature-inner p{
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #a0a0a0;
+    margin-top: 10px;
+
+}
+
+/****************************************************************************************
+               feature section css code end........ 
+****************************************************************************************/
+/****************************************************************************************
+               portfolio section css code goes here........ 
+****************************************************************************************/
+
+.portfolio{
+    width: 100%;
+    text-align: center;
+    padding: 70px 0px; 
+    background: #f6f9f9;
+
+}
+.portfolio .title{
+    width: 100%;
+    margin: 0px auto;
+    text-align: center;
+   
+}
+.portfolio .title h2{
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 45px;
+    color: #2d3950;
+    margin-bottom: 10px;
+}
+.portfolio .title p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+     color: #a0a0a0;
+     margin-bottom: 40px;
+ }
+
+.portfolio .box{
+    position: relative;
+    width: 100%;
+    margin: 15px 0px;
+    display: inline-block;
+    
+}
+
+.portfolio .box .imgbox{
+    position: relative;
+    /* overflow: hidden;*/ 
+}
+
+.portfolio .box .imgbox img{
+    width: 100%;
+    transition: transform 2s; 
+}
+
+ /*.container .box:hover .imgbox img{
+    transform: scale(1.2);
+} */
+
+.portfolio .box .icon{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top:0px;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+    background: rgb(22,151,231,.8);
+    /* transform: scaleY(0); */
+    display: none;
+    transition: .5s;
+    
+}
+.portfolio .box:hover .icon{
+     /* transform: scaleY(1); */
+    display: block;
+    transition: .5s;
+}
+
+.portfolio .box .icon .inner-icon{
+    position: absolute;
+    top: 45%;
+    left: 35%;
+    /*transform: translateY(-50%);*/
+    text-align: center;
+}
+
+.inner-icon a img{
+    margin: 0px 5px;
+} 
+
+/****************************************************************************************
+               portfolio section css code end........ 
+****************************************************************************************/
+
+/****************************************************************************************
+               stay with us section css code start........ 
+****************************************************************************************/
+.stayus{
+    width: 100%;
+    padding: 80px 0px;
+    background: url(../img/BG.png) center top no-repeat; 
+    background-size: cover;
+    text-align: center;
+}
+
+.stayus .text{
+    width: 100%;
+    margin: 0px auto;
+    
+}
+
+.stayus .text h2{
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 45px;
+    color: #ffffff;
+
+}
+
+.stayus .text p{
+    font-size: 14px;
+    color: #a0a0a0;
+    line-height: 24px;
+    font-weight: 400;
+    margin: 15px 0px 40px;
+
+}
+
+
+.stayus .input-box{
+    width: 100%;
+     
+}
+
+
+.stayus .input-box .stay-inner{
+    width: 100%;
+    margin: 0px auto;
+    padding: 8px 0px;
+    background: transparent;
+}
+
+.stay-inner .input-control{
+    width: 100%;
+    padding: 15px 10px;
+    border-radius: 5px;
+    background: transparent;
+    border:1px solid #999;
+    color: #fff;
+    outline: unset;
+    
+}
+
+
+.stay-inner .check{
+       width: 20px;
+       height: 20px;
+       position: relative;
+       top: 12%;
+       margin-right: 3px;
+}
+
+.stay-inner span{
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff; 
+}
+
+.stay-inner .btn-info{
+    font-size: 18px;
+    color: #ffffff;
+    border: 1px solid #15a4fa;
+    padding: 10px 35px;
+    border-radius: 5px;
+    transition: none;
+    cursor: pointer;
+    background: transparent;
+    transition: .5s;
+}
+
+.stay-inner a:hover{
+    background: #15a4fa;
+    
+}
+
+
+
+
+/****************************************************************************************
+               stay with us section css code end........ 
+****************************************************************************************/
+
+.footer-section{
+    width: 100%;
+    padding: 15px 0px 0px; 
+    background: #f6f9f9;
+}
+
+.footer-section .foot-inner{
+    width: 100%;
+     
+}
+.footer-section .foot-inner .copyright{
+    font-size: 14px;
+    font-weight: 400;
+    color: #a0a0a0;
+    text-transform: uppercase;
+    margin-top: 15px;
+}
+
+.footer-section .foot-inner .social-icon{ 
+	width: 100%;
+    text-align: right; 
+    margin-top: 4px;
+
+}
+
+
+.social-icon li{
+    list-style: none;
+    display: inline-block;
+}
+
+.social-icon li a{
+    text-align: center;
+    margin: 0px 2px;
+}
+
+.social-icon li a .fa{
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 20px;
+    border-radius: 2px;
+    background: #15a4fa;
+    color: #fff;
+    cursor: pointer;
+
+}
+
+.social-icon li a .fa-facebook:hover{
+    background: #3b5998;
+    transition: .5s;
+}
+
+.social-icon li a .fa-twitter:hover{
+    background: #15a4fa;
+    transition: .5s;
+}
+
+.social-icon li a .fa-google-plus:hover{
+    background: #dd4b39;
+    transition: .5s;
+}
+
+.social-icon li a .fa-linkedin:hover{
+    background: #0976b4;
+    transition: .5s;
+}
+
+
+/****************************************************************************************
+               footer section css code end........ 
+****************************************************************************************/
+ /**********************************
+            mobile device css start
+ **************************************/
+
+@media all and (max-width: 576px) {
+   .header-section img{
+    margin-left: 35px;
+     
+}
+
+.banner-section {
+    /*width: 100%;
+    background: url(../img/banner.png) center no-repeat;
+    background-size: cover;*/
+    padding: 50px 0px;
+    text-align: center;
+}
+
+.banner-inner h1 {
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 70px;
+    text-transform: uppercase;
+    color: #ffffff;
+    padding: 60px 0px 10px;
+}
+
+.banner-inner .divider {
+    width: 75%;
+    border: 1px solid #15a4fa;
+    margin: 0px auto;
+}
+
+.banner-inner p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #ffffff;
+    margin: 20px 0px;
+}
+
+.banner-inner .btn {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    border: 1px solid #15a4fa;
+    padding: 10px 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    color: #ffffff;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+    background: transparent;
+}
+
+.banner-inner .arrow-image {
+    width: 100%;
+    margin: 70px 0px 0px;
+
+
+}
+
+.simple {
+    width: 100%;
+    padding: 40px 0px;
+    background: #f6f9f9;
+}
+.simple-inner h2 {
+    font-size: 25px;
+    line-height: 35px;
+    font-weight: 400;
+    color: #2d3950;
+    margin-bottom: 20px;
+   
+}
+
+.simple-inner p {
+    font-size: 12px;
+    line-height: 22px;
+    font-weight: 400;
+    color: #a0a0a0;
+    
+}
+
+.feature {
+    width: 100%;
+    padding: 40px 0px;
+    background: #ffffff;
+}
+
+.feature-inner img {
+    margin-top: 10px;
+    margin-bottom: 12px;
+}
+
+.feature-inner h4 {
+    font-size: 17px;
+    color: #2d3950;
+    line-height: 34px;
+    font-weight: 400;
+}
+
+.feature-inner p {
+    font-size: 12px;
+    color: #a0a0a0;
+    line-height: 22px;
+    font-weight: 400;*/
+    margin-top: 7px;
+}
+
+.portfolio {
+    width: 100%;
+    text-align: center;
+    padding: 50px 0px;
+    background: #f6f9f9;
+}
+
+.portfolio .title h2 {
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 35px;
+    color: #2d3950;
+    margin-bottom: 10px;
+}
+
+
+.portfolio .title p {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 22px;
+    color: #a0a0a0;
+    margin-bottom: 20px;
+}
+
+.stayus {
+    width: 100%;
+    padding: 45px 0px;
+    background: url(../img/BG.png) center top no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+.stayus .text h2 {
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 35px;
+    color: #ffffff;
+}
+
+.stayus .text p {
+    font-size: 12px;
+    color: #a0a0a0;
+    line-height: 22px;
+    font-weight: 400;
+    margin: 10px 0px 20px;
+}
+.stay-inner .check {
+    top: 12%;
+    
+}
+.stay-inner span {
+    
+    color: #fff;
+}
+.stay-inner .btn-info{
+    position: relative;
+    bottom: 20px;
+}
+
+.footer-section {
+    width: 100%;
+    padding: 2px 0px;
+    background: #f6f9f9;
+}
+
+.footer-section .foot-inner .copyright{
+    font-size: 12px;
+    font-weight: 400;
+    color: #a0a0a0;
+    text-transform: uppercase;
+    position: relative;
+    top: 10px;
+    
+}
+.social-icon li a .fa {
+    width: 26px;
+    height: 26px;
+    line-height: 26px;
+    font-size: 14px;
+    border-radius: 1px;
+    background: #15a4fa;
+    color: #fff;
+    cursor: pointer;
+}
+.social-icon li a {
+    text-align: center;
+    margin: 0px 1px;
+}
+.footer-section .foot-inner .social-icon {
+    text-align: right;
+    margin-top: -29px;
+
+}
+
+ }
+
+/**********************************
+            mobile device css end
+ **************************************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
