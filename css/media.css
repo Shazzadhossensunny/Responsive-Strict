@@ -1,0 +1,510 @@
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+.header-section .navbar-light .navbar-nav .nav-item .nav-link {
+    font-size: 14px;
+    margin: 20px 20px 0px;
+}
+ .navbar-nav {
+    flex-direction: row;
+    -ms-flex-direction: row;
+    justify-content: center;
+} 
+
+.simple {
+    padding: 30px 0px;
+    
+}
+.simple-inner h2 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.simple-inner p {
+    font-size: 12px;
+   
+}
+
+.feature {
+    padding: 30px 0px;
+  
+}
+
+.feature-inner img {
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.feature-inner h4 {
+    font-size: 18px;
+    
+}
+
+.feature-inner p {
+    font-size: 10px;
+     margin-top: 0px;
+}
+
+
+.portfolio {
+    padding: 30px 0px;
+    
+}
+
+
+.portfolio .title h2 {
+    font-size: 30px;
+    font-weight: 700;
+    
+}
+.portfolio .title p {
+    margin-bottom: 10px;
+}
+
+.stayus {
+    padding: 30px 0px;
+    
+}
+.stayus .text p {
+    margin: 15px 0px 20px;
+}
+.stay-inner span {
+    font-size: 13px;
+    
+}
+.stay-inner .btn-info {
+    font-size: 16px;
+    text-decoration: none;
+}
+.arrow-top {
+    bottom: 65px;
+   
+}
+
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+  
+  
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+  .header-section img{
+    margin-left: 35px;
+     
+}
+
+.banner-section {
+    padding: 50px 0px;
+    text-align: center;
+}
+
+.banner-inner h1 {
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 70px;
+    text-transform: uppercase;
+    color: #ffffff;
+    padding: 60px 0px 10px;
+}
+
+.banner-inner .divider {
+    width: 75%;
+    border: 1px solid #15a4fa;
+    margin: 0px auto;
+}
+
+.banner-inner p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #ffffff;
+    margin: 20px 0px;
+}
+
+.banner-inner .btn {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    border: 1px solid #15a4fa;
+    padding: 10px 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    color: #ffffff;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+    background: transparent;
+}
+
+.banner-inner .arrow-image {
+    width: 100%;
+    margin: 70px 0px 0px;
+
+
+}
+
+.simple {
+    width: 100%;
+    padding: 40px 0px;
+    background: #f6f9f9;
+}
+.simple-inner h2 {
+    font-size: 25px;
+    line-height: 35px;
+    font-weight: 400;
+    color: #2d3950;
+    margin-bottom: 20px;
+   
+}
+
+.simple-inner p {
+    font-size: 12px;
+    line-height: 22px;
+    font-weight: 400;
+    color: #a0a0a0;
+    
+}
+
+.feature {
+    width: 100%;
+    padding: 40px 0px;
+    background: #ffffff;
+}
+
+.feature-inner img {
+    margin-top: 10px;
+    margin-bottom: 12px;
+}
+
+.feature-inner h4 {
+    font-size: 17px;
+    color: #2d3950;
+    line-height: 34px;
+    font-weight: 400;
+}
+
+.feature-inner p {
+    font-size: 12px;
+    color: #a0a0a0;
+    line-height: 22px;
+    font-weight: 400;*/
+    margin-top: 7px;
+}
+
+.portfolio {
+    width: 100%;
+    text-align: center;
+    padding: 50px 0px;
+    background: #f6f9f9;
+}
+
+.portfolio .title h2 {
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 35px;
+    color: #2d3950;
+    margin-bottom: 10px;
+}
+
+
+.portfolio .title p {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 22px;
+    color: #a0a0a0;
+    margin-bottom: 20px;
+}
+
+.stayus {
+    width: 100%;
+    padding: 45px 0px;
+    background: url(../img/BG.png) center top no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+.stayus .text h2 {
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 35px;
+    color: #ffffff;
+}
+
+.stayus .text p {
+    font-size: 12px;
+    color: #a0a0a0;
+    line-height: 22px;
+    font-weight: 400;
+    margin: 10px 0px 20px;
+}
+.stay-inner .check {
+    top: 12%;
+    
+}
+.stay-inner span {
+    
+    color: #fff;
+}
+.stay-inner .btn-info{
+    position: relative;
+    bottom: 20px;
+}
+
+.footer-section {
+    width: 100%;
+    padding: 2px 0px;
+    background: #f6f9f9;
+}
+
+.footer-section .foot-inner .copyright{
+    font-size: 12px;
+    font-weight: 400;
+    color: #a0a0a0;
+    text-transform: uppercase;
+    position: relative;
+    top: 10px;
+    
+}
+.social-icon li a .fa {
+    width: 26px;
+    height: 26px;
+    line-height: 26px;
+    font-size: 14px;
+    border-radius: 1px;
+    background: #15a4fa;
+    color: #fff;
+    cursor: pointer;
+}
+.social-icon li a {
+    text-align: center;
+    margin: 0px 1px;
+}
+.footer-section .foot-inner .social-icon {
+    text-align: right;
+    margin-top: -29px;
+
+}
+
+ 
+  
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .header-section .navbar-light .navbar-nav .nav-item .nav-link {
+    font-size: 14px;
+    margin: 10px 0px;
+    margin-left: 113px;
+}
+   .header-section img{
+    margin-left: 35px;
+     
+}
+
+.banner-section {
+    padding: 10px 0px;
+    text-align: center;
+}
+.banner-section .banner-inner {
+    padding: 70px 0px 0px;
+}
+.banner-inner h1 {
+    font-size: 50px;
+    line-height: 60px;
+    padding: 55px 0px 5px;
+}
+
+.banner-inner .divider {
+    width: 75%;
+    border: 1px solid #15a4fa;
+    margin: 0px auto;
+}
+
+.banner-inner p {
+    font-size: 12px;
+    margin: 15px 0px;
+}
+
+.banner-inner .btn {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    border: 1px solid #15a4fa;
+    padding: 10px 20px;
+    margin-top: 12px;
+    border-radius: 5px;
+    color: #ffffff;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+    background: transparent;
+}
+
+.banner-inner .arrow-image {
+    width: 100%;
+    margin: 35px 0px 35px;
+}
+
+.simple {
+    width: 100%;
+    padding: 25px 0px;
+    background: #f6f9f9;
+}
+.simple-inner h2 {
+    font-size: 25px;
+    line-height: 35px;
+    font-weight: 400;
+    color: #2d3950;
+    margin-bottom: 15px;
+   
+}
+
+.simple-inner p {
+    font-size: 11px;
+    line-height: 22px;
+    font-weight: 400;
+    color: #a0a0a0;
+    
+}
+
+.feature {
+    width: 100%;
+    padding: 25px 0px;
+    background: #ffffff;
+}
+
+.feature-inner img {
+    margin-top: 10px;
+    margin-bottom: 12px;
+}
+
+.feature-inner h4 {
+    font-size: 17px;
+    color: #2d3950;
+    line-height: 34px;
+    font-weight: 400;
+}
+
+.feature-inner p {
+    font-size: 12px;
+    color: #a0a0a0;
+    line-height: 22px;
+    font-weight: 400;*/
+    margin-top: 7px;
+}
+
+.portfolio {
+    width: 100%;
+    text-align: center;
+    padding: 25px 0px;
+    background: #f6f9f9;
+}
+
+.portfolio .title h2 {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 35px;
+    color: #2d3950;
+    margin-bottom: 10px;
+}
+
+
+.portfolio .title p {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 22px;
+    color: #a0a0a0;
+    margin-bottom: 10px;
+}
+
+.stayus {
+    width: 100%;
+    padding: 45px 0px;
+    background: url(../img/BG.png) center top no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+.stayus .text h2 {
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 35px;
+    color: #ffffff;
+}
+
+.stayus .text p {
+    font-size: 12px;
+    color: #a0a0a0;
+    line-height: 22px;
+    font-weight: 400;
+    margin: 10px 0px 20px;
+}
+.stay-inner .check {
+    top: 12%;
+    
+}
+.stay-inner span {
+    
+    color: #fff;
+}
+.stay-inner .btn-info{
+    position: relative;
+    bottom: 20px;
+}
+
+.footer-section {
+    width: 100%;
+    padding: 2px 0px;
+    background: #f6f9f9;
+}
+
+.footer-section .foot-inner .copyright{
+    font-size: 12px;
+    font-weight: 400;
+    color: #a0a0a0;
+    text-transform: uppercase;
+    position: relative;
+    top: 10px;
+    
+}
+.social-icon li a .fa {
+    width: 26px;
+    height: 26px;
+    line-height: 26px;
+    font-size: 14px;
+    border-radius: 1px;
+    background: #15a4fa;
+    color: #fff;
+    cursor: pointer;
+}
+.social-icon li a {
+    text-align: center;
+    margin: 0px 1px;
+}
+.footer-section .foot-inner .social-icon {
+    text-align: right;
+    margin-top: -29px;
+
+}
+
+
+
+}

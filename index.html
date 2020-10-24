@@ -4,6 +4,7 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" href="img/fav.png">
     <!-- style.css CSS -->
     <link rel="stylesheet" href="css/style.css">
 
@@ -11,23 +12,45 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <!-- font-awsome.min CSS -->
     <link rel="stylesheet" href="css/font-awesome.min.css">
+    <!-- media query -->
+    <link rel="stylesheet" href="css/media.css">
+    <!-- animate.css -->
+    <link rel="stylesheet" href="css/animate.css">
     <!-- google font link -->
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
 
     <title>STRICT </title>
   </head>
-  <body>
+  <body id="home">
     <!-- header section start here -->
-    <header class="header-section">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-              <a href="index.html">
-                <img src="img/Logo header.png" alt="#">
-              </a>
-          </div>
+    <header class="header-section navbar-wrapper">
+      <nav class="navbar navbar-expand-lg navbar-light  ">
+        <div class="container">
+          <a class="navbar-brand" href="#home">
+            <img src="img/Logo header.png" alt="index.html">
+          </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#gallery">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contactus">Contact</a>
+            </li>
+          </ul>
+         </div>
         </div>
-      </div>
+      </nav>
     </header>
     <!-- header section end.... -->
 
@@ -37,11 +60,11 @@
         <div class="row">
           <div class="col-md-12">
             <div class="banner-inner">
-              <h1>STRICT</h1>
-              <div class="divider"></div>
-              <p>STRICT is a responsive theme with a a clean and minimal look.</p>
-              <a href="#" class="btn">Call to action</a>
-              <div class="arrow-image">
+              <h1 class="wow animate fadeInDown" data-wow-delay="1s">STRICT</h1>
+              <div class="divider wow animate fadeIn" data-wow-delay="2s"></div>
+              <p class="wow animate fadeInLeft" data-wow-delay="3s">STRICT is a responsive theme with a a clean and minimal look.</p>
+              <a href="#" class="btn wow animate fadeInRight" data-wow-delay="4s">Call to action</a>
+              <div class="arrow-image wow animate fadeIn" data-wow-delay="5s">
                 <img src="img/arrow Icon.png" alt="#">
               </div>
             </div>
@@ -56,13 +79,13 @@
 
 <!-- Simple and pure design section start  -->
 
-    <section class="simple">
+    <section id="about" class="simple">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
                     <div class="simple-inner">
-                        <h2>Simple & pure design.</h2>
-                        <p>Designers everywhere gush with admiration upon seeing a web design and exclaim "its
+                        <h2 class="wow animate fadeInDown" data-wow-delay="1s">Simple & pure design.</h2>
+                        <p class="wow animate fadeInLeft" data-wow-delay="2s">Designers everywhere gush with admiration upon seeing a web design and exclaim "its
                             beautiful, it's so clean!". There are a <br> countless number of webdesign round-ups
                             dedicated to 'clean' design and it is a term thrown around quite a bit in the web <br>
                             design community. It can be easy to spot a good example of clean design.</p>
@@ -79,7 +102,7 @@
         <div class="container">
           <div class="row">
             <div class="col-md-4">
-              <div class="feature-inner">
+              <div class="feature-inner wow animate fadeInDown" data-wow-delay="1s">
                 <img src="img/Icon1.png" alt="">
                 <h4>Optimized for all devices</h4>
                 <p>STRICT has been designed to be fully <br>
@@ -87,7 +110,7 @@
               </div>
             </div>
             <div class="col-md-4">
-              <div class="feature-inner">
+              <div class="feature-inner wow animate fadeInLeft" data-wow-delay="2s">
                 <img src="img/Icon2.png" alt="">
                 <h4>Clean & Minimal Design</h4>
                 <p>This multipurpose theme is especially created <br>
@@ -95,7 +118,7 @@
               </div>
             </div>
             <div class="col-md-4">
-              <div class="feature-inner">
+              <div class="feature-inner wow animate fadeInRight" data-wow-delay="2s">
                 <img src="img/Icon3.png" alt="">
                 <h4>Font Awesome Icon</h4>
                 <p>This multipurpose theme is especially created <br>
@@ -109,7 +132,7 @@
 
 <!-- portfolio section start -->
 
-    <section class="portfolio">
+    <section id="gallery" class="portfolio">
       <div class="container">
         <div class="row">
           <div class="col-md-12">
@@ -227,7 +250,7 @@
 <!-- Stay with us section start -->
 
 
-<section class="stayus">
+<section id="contactus" class="stayus">
   <div class="container">
     <div class="row">
       <div class="col-md-12">
@@ -302,16 +325,33 @@
             </div>
         </div>
     </footer>
-
-
-                 <!-- footer section end here -->
-    
+    <!-- footer section end here -->
+    <a href="#home" class="arrow-top"><i class="fa fa-angle-double-up"></i></a>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <!-- wow.js -->
+    <script src="js/wow.js"></script>
+   <!-- stickUp.min.js -->
+    <script src="js/stickUp.min.js"></script>
+
+    <script type="text/javascript">
+              //initiating jQuery
+              jQuery(function($) {
+                $(document).ready( function() {
+                  //enabling stickUp on the '.navbar-wrapper' class
+                  $('.navbar-wrapper').stickUp();
+                });
+              });
+
+            </script>
+
+            <script>
+              new WOW().init();
+            </script>
   </body>
 </html>
 

@@ -18,7 +18,10 @@ h1, h2, h3, h4, h5, h6{
 a, a:hover{
 	text-decoration: none;
 }
-
+.isStuck{
+    left:0px;
+    width:100%;
+}
 /****************************************************************************************
                  header section css code start 
 ****************************************************************************************/
@@ -26,6 +29,51 @@ a, a:hover{
     width: 100%;
     padding: 20px 0px;
     background: #f6f9f9;
+}
+
+ .navbar-wrapper{
+  width: 100%;
+  position: relative;
+  z-index: 15;
+  background: rgba(255,255, 255, 0.4);
+
+
+}
+.header-section .navbar-light .navbar-nav .nav-item .nav-link {
+    color: #999;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-left: 40px;
+    display: flex;
+    background: #e3edf7;
+    height: 50px;
+    width: 100px;
+    border-radius: 8px;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    box-shadow: 6px 6px 10px -1px rgba(0,0,0,0.15),
+                -6px -6px 10px -1px rgba(255,255,255,0.7);
+    border: 1px solid rgba(0,0,0,0);
+    transition: transform 0.5s;
+    
+
+    
+}
+
+ 
+
+.header-section .navbar-light  .navbar-nav .nav-item .nav-link:hover{
+    box-shadow: inset 4px 4px 6px -1px rgba(0,0,0,0.2),
+                inset -4px -4px 6px -1px rgba(255,255,255,0.7),
+                -0.5px -0.5px 0px rgba(255,255,255,1),
+                0.5px 0.5px 0px rgba(0,0,0,0.15),
+                0px 12px 10px -10px rgba(0,0,0,0.05);
+     border: 1px solid rgba(0,0,0,0.01);
+     transform: translate(2px);
+     color: #15a4fa;
+
 }
 
 
@@ -38,16 +86,17 @@ a, a:hover{
 ****************************************************************************************/
 .banner-section{
     width: 100%;
-    background: url(../img/banner.png) center no-repeat;
+    background: url(../img/banner.png) center center no-repeat;
     background-size: cover;
-    padding: 80px 0px;
+    padding: 150px 0px;
     text-align: center; 
+
     
 }
 
 .banner-section .banner-inner{
     width: 100%;
-    padding:20px 0px 0px;
+    padding:100px 0px 0px;
 }
 
 .banner-inner h1{
@@ -56,7 +105,7 @@ a, a:hover{
     line-height: 110px;
     text-transform: uppercase;
     color: #ffffff;
-    padding: 60px 0px 30px;
+    padding: 40px 0px 65px;
 
 }
 .banner-inner .divider{
@@ -212,7 +261,7 @@ a, a:hover{
 
 .portfolio .box .imgbox{
     position: relative;
-    /* overflow: hidden;*/ 
+    overflow: hidden; 
 }
 
 .portfolio .box .imgbox img{
@@ -220,9 +269,9 @@ a, a:hover{
     transition: transform 2s; 
 }
 
- /*.container .box:hover .imgbox img{
+ .container .box:hover .imgbox img{
     transform: scale(1.2);
-} */
+} 
 
 .portfolio .box .icon{
     width: 100%;
@@ -232,23 +281,24 @@ a, a:hover{
     left: 0px;
     bottom: 0px;
     right: 0px;
-    background: rgb(22,151,231,.8);
-    /* transform: scaleY(0); */
+    background: rgba(22,151,231,.8);
+     transform: scaleY(0); 
     display: none;
     transition: .5s;
     
 }
 .portfolio .box:hover .icon{
-     /* transform: scaleY(1); */
+     transform: scaleY(1);
     display: block;
     transition: .5s;
+
 }
 
 .portfolio .box .icon .inner-icon{
     position: absolute;
     top: 45%;
     left: 35%;
-    /*transform: translateY(-50%);*/
+    transform: translateY(-50%);
     text-align: center;
 }
 
@@ -344,6 +394,7 @@ a, a:hover{
     cursor: pointer;
     background: transparent;
     transition: .5s;
+    text-decoration: none;
 }
 
 .stay-inner a:hover{
@@ -425,220 +476,24 @@ a, a:hover{
     background: #0976b4;
     transition: .5s;
 }
-
+.arrow-top{
+    color:#fff;
+    background: #15a4fa;
+    width:  40px;
+    height: 40px;
+    display: block;
+    line-height: 40px;
+    text-align: center;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    border-radius: 5px;
+}
 
 /****************************************************************************************
                footer section css code end........ 
 ****************************************************************************************/
- /**********************************
-            mobile device css start
- **************************************/
-
-@media all and (max-width: 576px) {
-   .header-section img{
-    margin-left: 35px;
-     
-}
-
-.banner-section {
-    /*width: 100%;
-    background: url(../img/banner.png) center no-repeat;
-    background-size: cover;*/
-    padding: 50px 0px;
-    text-align: center;
-}
-
-.banner-inner h1 {
-    font-size: 60px;
-    font-weight: 700;
-    line-height: 70px;
-    text-transform: uppercase;
-    color: #ffffff;
-    padding: 60px 0px 10px;
-}
-
-.banner-inner .divider {
-    width: 75%;
-    border: 1px solid #15a4fa;
-    margin: 0px auto;
-}
-
-.banner-inner p {
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 24px;
-    color: #ffffff;
-    margin: 20px 0px;
-}
-
-.banner-inner .btn {
-    font-size: 15px;
-    font-weight: 400;
-    line-height: 25px;
-    border: 1px solid #15a4fa;
-    padding: 10px 20px;
-    margin-top: 20px;
-    border-radius: 5px;
-    color: #ffffff;
-    cursor: pointer;
-    transition: 0.5s ease-in-out;
-    background: transparent;
-}
-
-.banner-inner .arrow-image {
-    width: 100%;
-    margin: 70px 0px 0px;
-
-
-}
-
-.simple {
-    width: 100%;
-    padding: 40px 0px;
-    background: #f6f9f9;
-}
-.simple-inner h2 {
-    font-size: 25px;
-    line-height: 35px;
-    font-weight: 400;
-    color: #2d3950;
-    margin-bottom: 20px;
-   
-}
-
-.simple-inner p {
-    font-size: 12px;
-    line-height: 22px;
-    font-weight: 400;
-    color: #a0a0a0;
-    
-}
-
-.feature {
-    width: 100%;
-    padding: 40px 0px;
-    background: #ffffff;
-}
-
-.feature-inner img {
-    margin-top: 10px;
-    margin-bottom: 12px;
-}
-
-.feature-inner h4 {
-    font-size: 17px;
-    color: #2d3950;
-    line-height: 34px;
-    font-weight: 400;
-}
-
-.feature-inner p {
-    font-size: 12px;
-    color: #a0a0a0;
-    line-height: 22px;
-    font-weight: 400;*/
-    margin-top: 7px;
-}
-
-.portfolio {
-    width: 100%;
-    text-align: center;
-    padding: 50px 0px;
-    background: #f6f9f9;
-}
-
-.portfolio .title h2 {
-    font-size: 25px;
-    font-weight: 400;
-    line-height: 35px;
-    color: #2d3950;
-    margin-bottom: 10px;
-}
-
-
-.portfolio .title p {
-    font-size: 12px;
-    font-weight: 400;
-    line-height: 22px;
-    color: #a0a0a0;
-    margin-bottom: 20px;
-}
-
-.stayus {
-    width: 100%;
-    padding: 45px 0px;
-    background: url(../img/BG.png) center top no-repeat;
-    background-size: cover;
-    text-align: center;
-}
-
-.stayus .text h2 {
-    font-size: 25px;
-    font-weight: 400;
-    line-height: 35px;
-    color: #ffffff;
-}
-
-.stayus .text p {
-    font-size: 12px;
-    color: #a0a0a0;
-    line-height: 22px;
-    font-weight: 400;
-    margin: 10px 0px 20px;
-}
-.stay-inner .check {
-    top: 12%;
-    
-}
-.stay-inner span {
-    
-    color: #fff;
-}
-.stay-inner .btn-info{
-    position: relative;
-    bottom: 20px;
-}
-
-.footer-section {
-    width: 100%;
-    padding: 2px 0px;
-    background: #f6f9f9;
-}
-
-.footer-section .foot-inner .copyright{
-    font-size: 12px;
-    font-weight: 400;
-    color: #a0a0a0;
-    text-transform: uppercase;
-    position: relative;
-    top: 10px;
-    
-}
-.social-icon li a .fa {
-    width: 26px;
-    height: 26px;
-    line-height: 26px;
-    font-size: 14px;
-    border-radius: 1px;
-    background: #15a4fa;
-    color: #fff;
-    cursor: pointer;
-}
-.social-icon li a {
-    text-align: center;
-    margin: 0px 1px;
-}
-.footer-section .foot-inner .social-icon {
-    text-align: right;
-    margin-top: -29px;
-
-}
-
- }
-
-/**********************************
-            mobile device css end
- **************************************/
+ 
 
 
 
